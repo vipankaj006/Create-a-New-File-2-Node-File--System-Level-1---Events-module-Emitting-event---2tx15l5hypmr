@@ -8,7 +8,7 @@ const writeFile = async (fileName, fileContent) => {
         if(err){
             console.log(err);
         }
-    })
+    });
   
 };
 module.exports =  writeFile ;
